@@ -1,7 +1,7 @@
 body
 {
   font-family: monospace;
-  background: linear-gradient(to right, hsla(0, 0%, 0%, 0), hsl(120, 96%, 29%) );
+  background: linear-gradient(to right, hsla(0, 0%, 0%, 0), hwb(120 8% 31%) );
 }
 h1
 {
@@ -38,5 +38,11 @@ img
   margin: 250;
   width: 200px;
   height: 200px;
-  
+}
+.banneroriginal
+{
+ position: fixed;
+ top: 20px;
+ width: 200px;
+ right: 100px;
 }
