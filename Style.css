@@ -1,6 +1,6 @@
 body {
   font-family: monospace;
-  background: linear-gradient(to right, #000000, #0b941d);
+  background: linear-gradient(to right, #000000, rgb(29, 155, 35));
   background-repeat: no-repeat;
   background-position: top center; /* Coloca a imagem no topo */
   background-size: cover; /* A imagem de fundo vai cobrir toda a tela */
@@ -38,9 +38,9 @@ td, th {
 img {
   width: 200px;
   height: 200px;
-  margin-top: -50px;
-  margin-left: 170;
-  margin-right: 170;
+  margin-top: 50px;
+  margin-left: 500;
+  margin-right: 500;
   display: block;
 }
  
@@ -72,6 +72,22 @@ nav ul {
   background-position: center;
 }
  
+#introducao
+{
+  width: 50%; /* Largura do retângulo */
+  height: 50%; /* Altura do retângulo */
+  background-color: #5e5a5a; /* Cor de fundo do retângulo */
+  border-radius: 10px; /* Bordas arredondadas (opcional) */
+  margin-left: 450;
+  margin-right: 450;
+  margin-top: 100;
+  background-position: relative;
+  background-size: cover;
+  text-align: justify;
+ 
+
+}
+
 .menu ul {
   list-style-type: none;
   display: flex;
@@ -95,3 +111,4 @@ nav ul {
   background-color: hsl(125, 96%, 44%);
   border-radius: 5px;
 }
+
